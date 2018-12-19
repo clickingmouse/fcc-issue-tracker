@@ -1,0 +1,11 @@
+Prevent cross site scripting(XSS attack).
+// html file..?
+//configure database 
+//declare models
+
+//routing
+
+// output...?
+
+packages added
+mongoose
