@@ -13,7 +13,20 @@
       <h1>
         ISQA_4 - Issue Tracker
       </h1>
-    </header>
+    </header><!--
+          <form action ="/api/", method="post">
+        <input name="dream" type="text" maxlength="100" placeholder="Dreams!" aria-labelledby="submit-dream">
+        <input name="issue_title" type="text" maxlength="100" placeholder="Issue Title">
+        <textarea name="issue_text" rows="10" cols="42" placeholder="issue text"></textarea><br>
+        <input name="created_by" type="text"  placeholder="Created By">
+        <input name="assigned_to" type="text"  placeholder="(optional)Assigned To">
+        <input name="status_text" type="text"  placeholder="Status text">
+        <input name="close_issue" type="checkbox">    <label for="close_issue">Close Issue</label>
+        <button type="submit" id="submit-issue">Submit</button>
+      </form>
+    
+    <hr><hr>
+-->
     <div id='userstories' style='margin-left: 5%; margin-top: 5%'>
       <h3>User Stories</h3>
       <ol>
@@ -64,6 +77,10 @@
         <button type="submit">Delete Issue</button>
       </form>
       <code id='jsonResult'></code>
+      
+      <hr>
+      <hr>
+      
     </div>
     <hr style='margin: 50px; margin-top: 200px'>
     <!-- Your web-app is https, so your scripts need to be too -->

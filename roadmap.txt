@@ -1,11 +1,17 @@
-Prevent cross site scripting(XSS attack).
+Prevent cross site scripting(XSS attack)
+>>>app.use(helmet.xssFilter()) .... complete
+
+
 // html file..?
-//configure database 
-//declare models
+//configure database  done
+//declare models done
 
 //routing
 
+
 // output...?
+
+//testing
 
 packages added
 mongoose
