@@ -2,6 +2,8 @@ const mongoose=require('mongoose')
 var Schema = mongoose.Schema
 var shortid=require('shortid')
 
+// this file not used .. to be ported 
+
 var issuesSchema = new Schema({
   issue_title:{
     type: String,
@@ -26,12 +28,12 @@ var issuesSchema = new Schema({
     default: Date.now
     },
   _id:{
-    type: String,
+    type: String, 
     default:shortid.generate,
     index:true
     }
   })
 
 var Issues = mongoose.model('Issues',issuesSchema)
-module.exports = Issues
+//module.exports = Issues
 
